@@ -91,6 +91,7 @@
 (require 'init-javascript)
 (require 'init-vue)
 (require 'init-php)
+(require 'init-phpdoc)
 (require 'init-org)
 (require 'init-nxml)
 (require 'init-html)
