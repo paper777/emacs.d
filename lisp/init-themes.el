@@ -1,8 +1,9 @@
 (require-package 'color-theme-sanityinc-solarized)
 (require-package 'color-theme-sanityinc-tomorrow)
+(require-package 'monokai-theme)
 
 ;; If you don't customize it, this is the theme you get.
-(setq-default custom-enabled-themes '(sanityinc-tomorrow-bright))
+(setq-default custom-enabled-themes '(monokai))
 
 ;; Ensure that themes will be applied even if they have not been customized
 (defun reapply-themes ()
@@ -30,6 +31,11 @@
   (setq custom-enabled-themes '(sanityinc-tomorrow-bright))
   (reapply-themes))
 
+(defun monokai ()
+  "Activate a dark color theme."
+  (interactive)
+  (setq custom-enabled-themes '(monokai))
+  (reapply-themes))
 
 (when (maybe-require-package 'dimmer)
   (setq-default dimmer-fraction 0.1)

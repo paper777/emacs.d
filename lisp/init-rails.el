@@ -7,5 +7,4 @@
       (add-to-list 'guide-key/guide-key-sequence "C-c r !")
       (add-to-list 'guide-key/guide-key-sequence "C-c r g"))))
 
-
 (provide 'init-rails)

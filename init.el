@@ -89,6 +89,7 @@
 (require 'init-csv)
 (require 'init-erlang)
 (require 'init-javascript)
+(require 'init-vue)
 (require 'init-php)
 (require 'init-org)
 (require 'init-nxml)
@@ -125,9 +126,6 @@
 
 (require 'init-folding)
 (require 'init-dash)
-
-;;(require 'init-twitter)
-;; (require 'init-mu)
 (require 'init-ledger)
 ;; Extra packages which don't require any configuration
 

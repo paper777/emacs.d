@@ -97,7 +97,6 @@
 ;; ----------------------------------------------------------------------------
 (setq load-prefer-newer t)
 
-
 
 (require-package 'immortal-scratch)
 (add-hook 'after-init-hook 'immortal-scratch-mode)
