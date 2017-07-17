@@ -134,7 +134,7 @@ If set to NIL no email address is written next to the @copyright tag."
   (dolist (arg (split-string arglist "\s*,\s*"))
     (php-insert-doc-block-param "param" arg t))
 
-  (php-insert-doc-block-tags-for-attributes attributes)X1
+  (php-insert-doc-block-tags-for-attributes attributes)
   (php-insert-doc-block-access-tag attributes)
 
   (let ((content)
