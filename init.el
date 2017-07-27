@@ -91,6 +91,7 @@
 (require 'init-javascript)
 (require 'init-vue)
 (require 'init-emmet)
+(require 'init-evil)
 (require 'init-php)
 (require 'init-phpdoc)
 (require 'init-org)
