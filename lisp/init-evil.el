@@ -2,4 +2,4 @@
 
 (evil-mode 1)
 
-(provide 'init-vue)
+(provide 'init-evil)
