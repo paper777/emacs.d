@@ -32,7 +32,6 @@
   (reapply-themes))
 
 (defun monokai ()
-  "Activate a dark color theme."
   (interactive)
   (setq custom-enabled-themes '(monokai))
   (reapply-themes))

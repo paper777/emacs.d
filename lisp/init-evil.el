@@ -1,4 +1,6 @@
-(maybe-require-package 'evil-mode)
+(require-package 'evil)
+
+(setq evil-default-cursor t)
 
 (evil-mode 1)
 
