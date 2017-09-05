@@ -92,7 +92,6 @@
 (require 'init-web-mode)
 (require 'init-evil)
 (require 'init-php)
-(require 'init-phpdoc)
 (require 'init-org)
 (require 'init-nxml)
 (require 'init-html)
