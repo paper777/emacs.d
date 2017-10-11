@@ -30,7 +30,9 @@
 (after-load 'js2-mode
   ;; Disable js2 mode's syntax error highlighting by default...
   (setq-default js2-mode-show-parse-errors nil
-                js2-mode-show-strict-warnings nil)
+                js2-mode-show-strict-warnings nil
+                js2-strict-missing-semi-warning nil
+                js2-missing-semi-one-line-override nil)
   ;; ... but enable it if flycheck can't handle javascript
   (autoload 'flycheck-get-checker-for-buffer "flycheck")
   (defun sanityinc/disable-js2-checks-if-flycheck-active ()
