@@ -8,7 +8,6 @@
 (add-to-list 'auto-mode-alist '("\\.xml?\\'" . web-mode))
 
 (require-package 'emmet-mode)
-(emmet-mode 1)
 (require-package 'php-auto-yasnippets)
 
 (setq web-mode-ac-sources-alist
@@ -22,6 +21,7 @@
   (setq web-mode-markup-indent-offset 2)
   (setq web-mode-css-indent-offset 2)
   (setq web-mode-code-indent-offset 2)
+  (emmet-mode)
   )
 
 (add-hook 'web-mode-hook  'my-web-mode-hook)
